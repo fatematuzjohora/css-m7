@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 100px;
+        width: 100px;
+        border: 1px solid lightblue;
+        background-color: yellowgreen;
+        transition: width 5s linear, height 5s linear, transform 5s linear;
+      }
+      .box:hover {
+        height: 200px;
+        width: 200px;
+        transform: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">transition-1</div>
+    <div class="box">transition-2</div>
+    <div class="box">transition-3</div>
+  </body>
+</html>
